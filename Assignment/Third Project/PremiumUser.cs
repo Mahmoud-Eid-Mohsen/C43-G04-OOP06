@@ -9,7 +9,11 @@ namespace Assignment.Third_Project
 {
     class PremiumUser : User
     {
-     
+        public PremiumUser()
+        {
+            Name = "Premium User";
+        }
+
 
         public override Discount GetDiscount()
         {

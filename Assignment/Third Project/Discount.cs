@@ -10,7 +10,7 @@ namespace Assignment.Third_Project
       public abstract class Discount
     {
        
-        public  string? name { get; set; }
+        public  string? Name { get; set; }
         public abstract decimal CalculateDiscount(decimal price, int quantity);
 
 

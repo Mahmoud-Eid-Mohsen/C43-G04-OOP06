@@ -8,6 +8,10 @@ namespace Assignment.Third_Project
 {
     public  class RegularUser:User
     {
+        public RegularUser()
+        {
+            Name = "Regular User";
+        }
         public override Discount GetDiscount()
         {
             return new PercentageDiscount(5);

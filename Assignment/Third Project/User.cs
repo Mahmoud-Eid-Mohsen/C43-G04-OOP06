@@ -9,7 +9,7 @@ namespace Assignment.Third_Project
 {
    public abstract class User
     {
-        public string name{ get; set; }
+        public string Name{ get; set; }
        public  abstract Discount GetDiscount();
 
 

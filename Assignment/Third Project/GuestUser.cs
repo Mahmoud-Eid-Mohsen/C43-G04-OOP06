@@ -9,7 +9,10 @@ namespace Assignment.Third_Project
 {
     class GuestUser : User
     {
-        
+        public GuestUser()
+        {
+            Name = "Guest User";
+        }
 
         public override Discount GetDiscount()
         {
