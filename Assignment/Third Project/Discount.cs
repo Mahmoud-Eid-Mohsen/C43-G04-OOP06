@@ -7,10 +7,10 @@ using static System.Formats.Asn1.AsnWriter;
 
 namespace Assignment.Third_Project
 {
-     abstract class Discount
+      public abstract class Discount
     {
        
-        public string? name { get; set; }
+        public  string? name { get; set; }
         public abstract decimal CalculateDiscount(decimal price, int quantity);
 
 

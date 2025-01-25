@@ -1,4 +1,5 @@
 ﻿using Assignment.Second_Project;
+using Assignment.Third_Project;
 
 namespace Assignment
 {
@@ -19,6 +20,12 @@ namespace Assignment
             // Testing division by zero
             Console.WriteLine($"Divide by Zero: {Math_.Divide(num1, 0)}");
             #endregion        }
+            #region test third project
+            PercentageDiscount perce = new PercentageDiscount(10);
+            decimal disccount1= perce.CalculateDiscount(450,10);
+            Console.WriteLine(disccount1);
+            #endregion
+            Console.ReadKey();
         }
     }
 }
