@@ -24,6 +24,15 @@ namespace Assignment
             PercentageDiscount perce = new PercentageDiscount(10);
             decimal disccount1= perce.CalculateDiscount(450,10);
             Console.WriteLine(disccount1);
+            BuyOneGetOneDiscount buyOneGetOneDiscount = new BuyOneGetOneDiscount();
+            decimal disccount2 = buyOneGetOneDiscount.CalculateDiscount(47, 20);
+            Console.WriteLine(disccount2);
+            decimal disccount3 = buyOneGetOneDiscount.CalculateDiscount(100, 1);
+            Console.WriteLine(disccount3);
+            FlatDiscount flat= new FlatDiscount(50);
+            decimal disccount4 =flat.CalculateDiscount(100, 25);
+            Console.WriteLine(disccount4);
+
             #endregion
             Console.ReadKey();
         }
